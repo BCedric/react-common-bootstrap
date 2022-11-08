@@ -12,5 +12,8 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-router-dom": "^6.4.3"
+  },
+  "publishConfig": {
+    "b-cedric:registry": "https://npm.pkg.github.com"
   }
 }
