@@ -13,6 +13,10 @@
     "react-bootstrap": "^2.5.0",
     "react-router-dom": "^6.4.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BCedric/react-common-bootstrap.git"
+  },
   "publishConfig": {
     "b-cedric:registry": "https://npm.pkg.github.com"
   }
