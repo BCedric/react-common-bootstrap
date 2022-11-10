@@ -4,7 +4,7 @@ import { DisplayErrorCtx } from './CustomForm'
 const CustomFormField = ({
   label = null,
   value = null,
-  onChange,
+  onChange = () => {},
   type = 'text',
   selectValues = [],
   className = '',

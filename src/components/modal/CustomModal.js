@@ -3,11 +3,11 @@ import React, { useEffect } from 'react'
 import Modal from 'react-bootstrap/Modal'
 
 const CustomModal = ({
-  show,
-  title,
-  content,
+  show = false,
+  title = '',
+  content = '',
   onValidate = () => {},
-  setShow,
+  setShow = () => {},
   validateLabel = 'Enregistrer',
   cancelLabel = 'Annuler',
   validateDisabled = false

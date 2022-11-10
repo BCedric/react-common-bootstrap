@@ -5,11 +5,11 @@ import CustomFormField from '@b-cedric/react-common-bootstrap/form/CustomFormFie
 import SubTitle from './SubTitle'
 
 const ListFormControl = ({
-  label,
-  list,
-  setList,
+  label = '',
+  list = [],
+  setList = () => {},
   titleActions = [],
-  fields,
+  fields = [],
   titleClass = ''
 }) => {
   const remove = (index) => {
