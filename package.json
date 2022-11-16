@@ -9,7 +9,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "publish:npm": "rm -rf dist && npm version patch && mkdir dist &&  babel src/components -d dist --copy-files && cp package.json dist && cd dist && npm publish --access=public"
+    "publish:npm": "rm -rf dist && npm version patch && mkdir dist &&  babel src/components -d dist --copy-files && cp package.json dist && cp README.md dist && cd dist && npm publish --access=public"
   },
   "eslintConfig": {
     "extends": [
